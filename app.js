@@ -8984,7 +8984,7 @@ jQuery.extend( {
 			statusCode = s.statusCode || {},
 
 			// Headers (they are sent all at once)
-			requestHeaders = { "Access-Control-Allow-Origin : *"},
+			requestHeaders = { "Access-Control-Allow-Origin: *"},
 			requestHeadersNames = {},
 
 			// Default abort message
