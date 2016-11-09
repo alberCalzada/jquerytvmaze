@@ -1,0 +1,14 @@
+{
+  "name": "WebShows",
+  "description": "Una web app para seleccionar tus series favoritas",
+  "version": "0.1.0",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.1"
+  },
+  "scripts": {
+  	"build-js": "browserify index.js > app.js"
+  }
+}
